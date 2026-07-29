@@ -1,0 +1,18 @@
+<!-- portal/reset.html -->
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Admin Password Reset</h2>
+  <input id="username" type="text" placeholder="username">
+  <button id="reset-btn" onclick="doReset()">Reset Password</button>
+  <p id="status-message"></p>
+
+  <script>
+    function doReset() {
+      const user = document.getElementById("username").value;
+      document.getElementById("status-message").innerText =
+        `Password reset successful for ${user}`;
+    }
+  </script>
+</body>
+</html>
