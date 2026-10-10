@@ -1,0 +1,11 @@
+.env
+*.env
+.venv/
+venv/
+__pycache__/
+chroma_db/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+.ipynb_checkpoints/
